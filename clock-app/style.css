@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #222;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background: #444;
+}
+
+.tab {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#stopwatch-display, #timer-display, #local-time {
+  font-size: 2rem;
+  margin: 15px 0;
+}
